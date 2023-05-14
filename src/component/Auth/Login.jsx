@@ -21,7 +21,7 @@ const Login = () => {
          e.preventDefault()
 
          try {
-             let response = await fetch('https://reservation-backend-api.herokuapp.com/login',{
+             let response = await fetch('https://reservation-backend1.onrender.com/login',{
                  method:'POST',
                  body: JSON.stringify(credentials),
                  headers:{
