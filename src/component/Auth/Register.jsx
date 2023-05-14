@@ -25,7 +25,7 @@ const Register = () => {
          e.preventDefault()
 
          try {
-             let response = await fetch('https://reservation-backend-api.herokuapp.com/register',{
+             let response = await fetch('https://reservation-backend1.onrender.com/register',{
                  method:'POST',
                  body: JSON.stringify(credentials),
                  headers:{
